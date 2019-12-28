@@ -1,12 +1,12 @@
 ---
 
 layout: recipe
-title: Patty Meldrums Whole Wheat Bread
+title: Patty Meldrum's Whole Wheat Bread
 image: patty-meldrums-whole-wheat-bread.jpg
-tags: 
+tags:
 recipeYield: 4 Loafs
 
-ingredients: 
+ingredients:
 - 6 cups warm water
 - 1 stick butter
 - 1/4 - 1/2 cup honey
@@ -14,7 +14,7 @@ ingredients:
 - 2 rounded Tbsp dry yeast
 - 10 -12 cups flour
 
-directions: 
+directions:
 - Melt water, honey, butter, and salt in warm water (potato water works really well)
 - Mix yeast with 4 cups of flour and add to wet ingredients
 - Add 6 more cups of flour and mix well
