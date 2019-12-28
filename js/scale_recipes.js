@@ -95,6 +95,7 @@ function extractQuantity(ingredient){
 function scaleIngredient(bareIngredient, quantity, scale = 1){
     let matchLength;
     if (quantity == ""){
+        return bareIngredient;
         matchLength = 0
         quantity = '1'
     }
