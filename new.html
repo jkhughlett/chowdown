@@ -141,36 +141,36 @@ layout: default
     });
 
     function constructFile() {
-        const name = $('#title').val().trim().toLowerCase().replace(/\s+/g, '-').replace(/,/g,'').replace(/\'/, '').replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss');
+        const name = $('#title').val().trim().toLowerCase().replace(/\s+/g, '-').replace(/,/g,'').replace(/\'/, '').replace(/:/g, '').replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss');
 
         let result = '---\n';
         result += '\n';
 
         // Basics
         result += 'layout: recipe\n';
-        result += 'title: ' + $('#title').val() + '\n';
+        result += 'title: ' + $('#title').val().replace(/:/g, '') + '\n';
         result += 'image: ' + name + '.jpg\n';
-        result += 'tags: ' + $('#tags').val().toLowerCase() + '\n';
-        result += 'recipeYield: ' + $('#servings').val() + '\n';
+        result += 'tags: ' + $('#tags').val().toLowerCase().replace(/:/g, '') + '\n';
+        result += 'recipeYield: ' + $('#servings').val().replace(/:/g, '') + '\n';
         result += '\n';
 
         // ingredients
         result += 'ingredients:\n';
         $('.ingredient').each(function (index) {
-            result += '- ' + $(this).val() + '\n';
+            result += '- ' + $(this).val().replace(/:/g, '') + '\n';
         });
         result += '\n';
 
         // directions
         result += 'directions:\n';
         $('.direction').each(function (index) {
-            result += '- ' + $(this).val() + '\n';
+            result += '- ' + $(this).val().replace(/:/g, '') + '\n';
         });
         result += '\n';
 
         result += '---\n\n';
 
-        result += $('#description').val();
+        result += $('#description').val().replace(/:/g, '');
 
 
         return {
