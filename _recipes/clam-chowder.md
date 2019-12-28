@@ -3,7 +3,7 @@
 layout: recipe
 title: Clam Chowder
 image: clam-chowder.jpg
-tags: soup, main dish
+tags: soup main-dish
 recipeYield: 8
 
 ingredients:
