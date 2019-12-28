@@ -15,7 +15,7 @@ ingredients:
 - 1 cup nuts
 
 directions: 
-- Cook sugar, syrup, and 1 cup cream until they boil
+- Cook sugar, syrup, butter, and 1 cup cream until they boil
 - Slowly add the rest of the cream
 - Cook to softball stage (240 °F)
 - Take off heat
