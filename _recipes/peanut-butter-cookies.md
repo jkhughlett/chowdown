@@ -18,8 +18,8 @@ ingredients:
 - 1 1/2 cup flour
 
 directions:
-- Combine ingredients and bake 375 degrees for 7-9 minutes.  
+- Combine ingredients and bake 375 degrees for 7-9 minutes.
 
 ---
 
-Peantu Butter Cookies (Joanne Linerud's)
+Peanut Butter Cookies (Joanne Linerud's)

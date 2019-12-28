@@ -14,7 +14,7 @@ ingredients:
 - 1/2 tsp salt
 
 directions:
-- Combine the coconut milk, rice, water, sugar and salt together in saucepan.  Bring to a boil over high heat, stir once, then reduce heat to simmer.  Cover and cook for 18-20 minutes, or until rice is tender.  Fluff with fork and serve.  (You can use a rice cooker)
+- Combine the coconut milk, rice, water, sugar and salt together in saucepan. Bring to a boil over high heat, stir once, then reduce heat to simmer. Cover and cook for 18-20 minutes, or until rice is tender. Fluff with fork and serve. (You can use a rice cooker)
 
 ---
 

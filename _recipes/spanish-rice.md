@@ -14,7 +14,7 @@ ingredients:
 - 1 cup chunky salsa
 
 directions:
-- Heat oil in a large skillet, over medium heat.   Stir in onion and cook until tender about 5 minutes.  Add rice stirring often.  When rice begins to brown, stir in chicken broth and salsa.  Reduce heat, cover and simmer 15-20 minuts until liquid has been absorbed.
+- Heat oil in a large skillet, over medium heat. Stir in onion and cook until tender about 5 minutes. Add rice stirring often. When rice begins to brown, stir in chicken broth and salsa. Reduce heat, cover and simmer 15-20 minuts until liquid has been absorbed.
 
 ---
 

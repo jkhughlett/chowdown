@@ -13,10 +13,12 @@ ingredients:
 - 1 bay leaf
 - 1/2 tsp salt
 - juice from 1 lime
--  6 Tbsp fresh chopped cilantro
+- 6 Tbsp fresh chopped cilantro
 
 directions:
-- Rinse brown rice well and drain.  Place in rice cooker along with water, olive oil, bay leaf, and salt.  Cook on brown rice setting.  Before serving, sprinkle with lime juice and toss gently with cilantro.
+- Rinse brown rice well and drain.
+- Place in rice cooker along with water, olive oil, bay leaf, and salt.
+- Cook on brown rice setting. Before serving, sprinkle with lime juice and toss gently with cilantro.
 
 ---
 

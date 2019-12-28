@@ -12,7 +12,7 @@ ingredients:
 - 2 Tbsp cold water
 
 directions:
-- Melt butter in pot, stirring continuously, add sugar, and cold water.  Cook over medium-high heat, stiring until it starts to burn.
+- Melt butter in pot, stirring continuously, add sugar, and cold water. Cook over medium-high heat, stirring until it starts to burn.
 - Pour over chocolate bars 9x13 pan, cover with chocolate bars on top and sprinkle with finely chopped nuts.
 
 ---

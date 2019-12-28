@@ -171,13 +171,15 @@ layout: default
     });
 
     function constructFile() {
-        var result = '---\n';
+        const path = $('#path').val();
+
+        let result = '---\n';
         result += '\n';
 
         // Basics
         result += 'layout: recipe\n';
         result += 'title: ' + $('#title').val() + '\n';
-        result += 'image: ' + $('#title').val().trim().toLowerCase().replace(/\s+/g, '-').replace(/\'/, '') + '.jpg\n';
+        result += 'image: ' + path.replace(/_recipes\//, '').replace(/md$/, 'jpg') + '\n';
         result += 'tags: ' + $('#tags').val().toLowerCase() + '\n';
         result += 'recipeYield: ' + $('#servings').val() + '\n';
         result += '\n';
@@ -199,8 +201,6 @@ layout: default
         result += '---\n';
 
         result += $('#description').val();
-
-        var path = $('#path').val();
 
         return {
             path: path,

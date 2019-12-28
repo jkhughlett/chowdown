@@ -22,8 +22,8 @@ ingredients:
 - 3 cups powder sugar- add more if you want thicker consistency
 
 directions:
-- Mix together and spread on a buttered cookie sheet.  Bake in a 350 degree preheated oven for 20-30 minutes.  Be sure to not overcook. 
-- Frosting directions- melt butter, add cocoa and stir together.  Add remaining ingredients and stir together with hand mixer.
+- Mix together and spread on a buttered cookie sheet. Bake in a 350 °F preheated oven for 20-30 minutes. Be sure to not overcook.
+- Frosting directions- melt butter, add cocoa and stir together. Add remaining ingredients and stir together with hand mixer.
 
 ---
 

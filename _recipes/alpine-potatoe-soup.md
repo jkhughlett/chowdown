@@ -1,8 +1,8 @@
 ---
 
 layout: recipe
-title: Alpine Potatoe Soup
-image: alpine-potatoe-soup.jpg
+title: Alpine Potato Soup
+image: alpine-potato-soup.jpg
 tags: soup
 recipeYield: 6-8
 
@@ -20,9 +20,9 @@ ingredients:
 - 1/2 tsp pepper
 
 directions:
-- Saute the onion and garlic in olive oil.  Add the chicken broth, vegetables, and sausage to onion mixture.  Bring to a boil and simmer 25-30 minutes until potatoes are tender.
+- Saute the onion and garlic in olive oil. Add the chicken broth, vegetables, and sausage to onion mixture. Bring to a boil and simmer 25-30 minutes until potatoes are tender.
 - Add the dill weed, parsley, and pepper.
 
 ---
 
-Alpine Potatoe Soup
+Alpine Potato Soup
