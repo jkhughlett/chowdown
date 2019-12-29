@@ -16,14 +16,27 @@ layout: default
         </div>
     </div>
 
-    <h4 class="mb3 blue" style="margin-bottom: 15px; margin-top: 15px;">Ingredients <a href="#"
-            id="new-ingredient">(+)</a></h4>
-    <div id="ingredients" class="col-12" style="margin-bottom: 20px;">
+    <h4 class="mb3 blue" style="margin-bottom: 15px; margin-top: 15px;">Ingredients
+      <button type="button" id="new-ingredient" class="btn" style="margin-bottom:6px; padding-left: 6px;">
+      {% include plus.svg %}
+      </button>
+    </h4>
+    <div id="ingredients" class="col-12" style="margin-bottom: 20px;"> </div>
 
-    </div>
-    <h4 class="mb3 blue" style="margin-bottom: 15px;">Directions <a href="#" id="new-direction">(+)</a></h4>
-    <div id="directions" class="col-12" style="margin-bottom: 20px;">
-    </div>
+    <h4 class="mb3 blue" style="margin-bottom: 15px;">Directions
+      <button type="button" id="new-direction" class="btn" style="margin-bottom:6px; padding-left: 6px;">
+      {% include plus.svg %}
+      </button>
+    </h4>
+    <div id="directions" class="col-12" style="margin-bottom: 20px;"> </div>
+
+    <h4 class="mb3 blue" style="margin-bottom: 15px;">Components
+      <button type="button" id="new-component" class="btn" style="margin-bottom:6px; padding-left: 6px;">
+      {% include plus.svg %}
+      </button>
+    </h4>
+    <div id="components" class="col-12" style="margin-bottom: 20px;"> </div>
+
     <div class="col-12">
         <div class="row justify-content-md-center">
             <button type="button" class="btn btn-primary col-12 col-md-8 col-lg-6" id="save">Save Recipe</button>
@@ -136,6 +149,13 @@ layout: default
             '</div>');
     });
 
+    $('#new-component').on('click', function () {
+        $('#components').append('<div style="display: flex; margin-bottom: 5px;">' +
+            '<input type="text" class="form-control component" placeholder="Component" aria-label="Component">' +
+            '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+            '</div>');
+    });
+
     $(document).on('click', '.remove-item', function () {
         $(this).parent().remove();
     });
@@ -157,6 +177,7 @@ layout: default
         // ingredients
         result += 'ingredients:\n';
         $('.ingredient').each(function (index) {
+          if($(this).val() !== '')
             result += '- ' + $(this).val().replace(/:/g, '') + '\n';
         });
         result += '\n';
@@ -164,11 +185,20 @@ layout: default
         // directions
         result += 'directions:\n';
         $('.direction').each(function (index) {
+          if($(this).val() !== '')
             result += '- ' + $(this).val().replace(/:/g, '') + '\n';
         });
         result += '\n';
 
-        result += '---\n\n';
+        // components
+        result += 'components:\n'
+        $('.component').each(function (index) {
+          if($(this).val() !== '')
+            result += '- ' + $(this).val().replace(/:/g, '') + '\n';
+        });
+        result += '\n';
+
+        result += '---\n';
 
         result += $('#description').val().replace(/:/g, '');
 
