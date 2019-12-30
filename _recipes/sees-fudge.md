@@ -3,10 +3,10 @@
 layout: recipe
 title: See's Fudge
 image: sees-fudge.jpg
-tags: dessert christmas 
-recipeYield: 
+tags: dessert christmas
+recipeYield:
 
-ingredients: 
+ingredients:
 - 3 small bags or 2 large bags of chocolate chips (23 ounces)
 - 3/4 cup butter
 - 2 cups chopped nuts
@@ -14,7 +14,7 @@ ingredients:
 - 12 oz can evaporated milk
 - 4 1/2 cups sugar
 
-directions: 
+directions:
 - In a large bowl combine chocolate chips, butter, nuts, and vanilla
 - In a sauce pan combine evaporated milk and sugar.
 - Bring the sauce pan mixture to boil and stir constantly for 7 minutes

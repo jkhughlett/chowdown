@@ -3,7 +3,7 @@
 layout: recipe
 title: Sausage Pasta
 image: sausage-pasta.jpg
-tags: main-dish
+tags: main
 recipeYield: 6
 
 ingredients:

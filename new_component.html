@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container">
-    <h2 class="center mb3 blue" style="margin-bottom: 15px; margin-top: 30px;">New Recipe</h2>
+    <h2 class="center mb3 blue" style="margin-bottom: 15px; margin-top: 30px;">New Component</h2>
     <div class="col-12">
         <div class="row justify-content-md-center">
             <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="title" placeholder="Title"
@@ -30,16 +30,9 @@ layout: default
     </h4>
     <div id="directions" class="col-12" style="margin-bottom: 20px;"> </div>
 
-    <h4 class="mb3 blue" style="margin-bottom: 15px;">Components
-      <button type="button" id="new-component" class="btn" style="margin-bottom:6px; padding-left: 6px;">
-      {% include plus.svg %}
-      </button>
-    </h4>
-    <div id="components" class="col-12" style="margin-bottom: 20px;"> </div>
-
     <div class="col-12">
         <div class="row justify-content-md-center">
-            <button type="button" class="btn btn-primary col-12 col-md-8 col-lg-6" id="save">Save Recipe</button>
+            <button type="button" class="btn btn-primary col-12 col-md-8 col-lg-6" id="save">Save Component</button>
         </div>
     </div>
 </div>
@@ -117,10 +110,10 @@ layout: default
         // Creates a new file (or updates it if the file already exists)
         // with the content provided
         repository.writeFile(
-            'gh-pages', // e.g. 'master'
-            '_recipes/' + file.name, // e.g. 'blog/index.md'
-            file.content, // e.g. 'Hello world, this is my new content'
-            'Added new recipe file: ' + file.name, // e.g. 'Created new index'
+            'gh-pages',
+            '_components/' + file.name,
+            file.content,
+            'Added new component file: ' + file.name,
             function (err) {
                 if (err) {
                     console.error('An error occurred when submitting the file');
@@ -146,13 +139,6 @@ layout: default
     $('#new-direction').on('click', function () {
         $('#directions').append('<div style="display: flex; margin-bottom: 5px;">' +
             '<input type="text" class="form-control direction" placeholder="Direction" aria-label="Direction">' +
-            '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
-            '</div>');
-    });
-
-    $('#new-component').on('click', function () {
-        $('#components').append('<div style="display: flex; margin-bottom: 5px;">' +
-            '<input type="text" class="form-control component" placeholder="Component" aria-label="Component">' +
             '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
             '</div>');
     });
@@ -186,14 +172,6 @@ layout: default
         // directions
         result += 'directions:\n';
         $('.direction').each(function (index) {
-          if($(this).val() !== '')
-            result += '- ' + $(this).val().replace(/:/g, '') + '\n';
-        });
-        result += '\n';
-
-        // components
-        result += 'components:\n'
-        $('.component').each(function (index) {
           if($(this).val() !== '')
             result += '- ' + $(this).val().replace(/:/g, '') + '\n';
         });

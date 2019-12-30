@@ -3,10 +3,10 @@
 layout: recipe
 title: Chocolate Chip Cookies
 image: chocolate-chip-cookies.jpg
-tags: dessert 
+tags: dessert
 recipeYield: 2 dozen
 
-ingredients: 
+ingredients:
 - 2/3 Cup shortening
 - 2/3 Cup butter
 - 1 Cup sugar
@@ -19,7 +19,7 @@ ingredients:
 - 1 Bag chocolate chips
 - 1 Cup nuts (optional)
 
-directions: 
+directions:
 - Preheat oven to 375
 - Mix fats and sugars
 - Add in Egg, vanilla and dry ingredients

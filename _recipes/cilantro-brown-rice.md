@@ -3,8 +3,8 @@
 layout: recipe
 title: Cilantro Brown Rice
 image: cilantro-brown-rice.jpg
-tags: side dish
-recipeYield: 
+tags: side
+recipeYield:
 
 ingredients:
 - 2 cups long grain brown rice

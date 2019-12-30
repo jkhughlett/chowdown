@@ -4,7 +4,7 @@ layout: recipe
 title: BYU Mint Brownies
 image: byu-mint-brownies.jpg
 tags: dessert
-recipeYield: 
+recipeYield:
 
 ingredients:
 - 1 cup butter

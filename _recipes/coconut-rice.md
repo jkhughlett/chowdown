@@ -3,8 +3,8 @@
 layout: recipe
 title: Coconut Rice
 image: coconut-rice.jpg
-tags: side dish
-recipeYield: 
+tags: side
+recipeYield:
 
 ingredients:
 - 2 cups coconut milk

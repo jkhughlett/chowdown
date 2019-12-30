@@ -3,7 +3,7 @@
 layout: recipe
 title: Chicken Bundles
 image: chicken-bundles.jpg
-tags: main-dish
+tags: main
 recipeYield: 6
 
 ingredients:

@@ -3,7 +3,7 @@
 layout: recipe
 title: Funeral Potatoes
 image: funeral-potatoes.jpg
-tags: side dish
+tags: side
 recipeYield: 8
 
 ingredients:

@@ -3,7 +3,7 @@
 layout: recipe
 title: Clam Chowder
 image: clam-chowder.jpg
-tags: soup main-dish
+tags: soup main
 recipeYield: 8
 
 ingredients:
@@ -19,8 +19,8 @@ ingredients:
 - 1/2 tsp sugar
 
 directions:
-- Drain juice from clams and pour over vegetables in medium sauce pan.  Add enough water to barely cover and simmer, covered, over medium heat until potatoes are tender, about 20 minutes.
-- In mean time, melt butter, add flour and blend and cook a minute or two.  Add cream and cook and stir until smooth and thick, using wire whisk to blend.  Add undrained vegetables and clams and heat through.  Season with salt, pepper and sugar.  
+- Drain juice from clams and pour over vegetables in medium sauce pan. Add enough water to barely cover and simmer, covered, over medium heat until potatoes are tender, about 20 minutes.
+- In mean time, melt butter, add flour and blend and cook a minute or two. Add cream and cook and stir until smooth and thick, using wire whisk to blend. Add undrained vegetables and clams and heat through. Season with salt, pepper and sugar.
 
 ---
 

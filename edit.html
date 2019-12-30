@@ -159,13 +159,14 @@ layout: default
         // Creates a new file (or updates it if the file already exists)
         // with the content provided
         repository.writeFile(
-            'gh-pages', // e.g. 'master'
-            file.path, // e.g. 'blog/index.md'
-            file.content, // e.g. 'Hello world, this is my new content'
-            'Edited recipe: ' + $('#title').val(), // e.g. 'Created new index'
+            'gh-pages',
+            file.path,
+            file.content,
+            'Edited recipe: ' + $('#title').val(),
             function (err, res, val) {
                 if (err) {
                     console.error('An error occurred when submitting the file');
+                    alert('An error occurred when submitting the file');
                 } else {
                     window.location.href = '/';
                 }

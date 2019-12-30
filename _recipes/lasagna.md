@@ -3,8 +3,8 @@
 layout: recipe
 title: Lasagna
 image: lasagna.jpg
-tags: main-dish
-recipeYield: 24 
+tags: main
+recipeYield: 24
 
 ingredients:
 - 2 lbs mild Italian Sausage

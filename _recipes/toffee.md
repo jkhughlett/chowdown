@@ -4,7 +4,7 @@ layout: recipe
 title: Toffee
 image: toffee.jpg
 tags: dessert
-recipeYield: 
+recipeYield:
 
 ingredients:
 - 1 cup butter

@@ -3,7 +3,7 @@
 layout: recipe
 title: Spanish Rice
 image: spanish-rice.jpg
-tags: side dish
+tags: side
 recipeYield: 6
 
 ingredients:
